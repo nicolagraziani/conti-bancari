@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conti Bancari</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div id="box">
+            <h1>C<span class="ladri">r</span>e<span class="ladri">d</span>ito N<span class="ladri">i</span>co<span
+                    class="ladri">l</span>i<span class="ladri">a</span>no</h1>
+            <h3>Affida i tuoi averi alla banca più sicura</h3>
+            <select name="utente" id="utenteS">
+                <option value="default" disabled selected>Seleziona un account</option>
+                <option value="account1">Account 1</option>
+                <option value="account2" disabled>Account 2</option>
+            </select>
+            <p id="saldoAttualeP">Il tuo saldo attuale è: <span id="saldoAttuale">0</span>€</p>
+            <input type="number" id="sommaIn" disabled>
+            <p id="erroreI"></p>
+            <br>
+            <button id="prelievoBtn" disabled>Effettua un prelievo</button>
+            <button id="depositoBtn" disabled>Effettua un deposito</button>
+            <div id="elenco">
+                <ul id="elencoOperazioni">
+
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

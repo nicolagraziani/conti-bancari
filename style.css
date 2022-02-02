@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    font-family: Libre Baskerville;
+
+}
+
+main {
+    background-image: url("bg.jpg");
+    background-position: left;
+    background-size: 115%;
+    height: calc(100vh - 6em);
+    padding: 3em;
+}
+
+main * {
+    margin-bottom: 1rem;
+
+}  
+
+#box {
+    position: relative;
+    background-color: #2c472e46;
+    width: 50%;
+    padding: 4em;
+    border-radius: 10px;
+    height: 80%;
+    border: 2px solid #243A26;
+
+}
+
+h1 {
+    font-weight:normal
+}
+
+.ladri {
+    font-weight:bold;
+    font-size: 1.1em;
+}
+
+select {
+    padding: 0.4em;
+    border-radius: 10px;
+    border: 2px solid #243A26;
+    background-color: transparent;
+}
+
+input {
+    padding: 0.4em;
+    border-radius: 10px;
+    border: 2px solid #243A26;
+    background-color: transparent;
+}
+
+button {
+    padding: 0.4em;
+    border-radius: 10px;
+    border: 2px solid #243A26;
+    background-color: transparent;
+    margin-bottom: 2em;
+}
+
+li {
+    list-style: none;
+}
+
+#elenco {
+    overflow: scroll;
+    height: 35%;
+}
